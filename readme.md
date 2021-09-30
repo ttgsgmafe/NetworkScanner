@@ -9,7 +9,24 @@ NodeJS LTS: v14.17.6
 Tested on:   
     Big Sur OS 11  
     M1 (Apple Silicone)  
-    8GB  
+    8GB 
+
+## Install and Use  
+
+#### Clone the Project
+```bash
+$ git clone https://github.com/ttgsgmafe/NetworkScanner.git 
+$ cd NetworkScanner  
+```   
+#### Install Node Packages 
+```bash
+$ npm i 
+```
+#### Run 
+```bash
+$ node index.js 
+```
+
 
 There are 3 options:  
 1. __Only Locate RPis and Quit:__ _Returns a table of all detected RPis on the network. Detects > RPi3, and RPi4._  
