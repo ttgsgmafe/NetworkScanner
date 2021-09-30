@@ -1,0 +1,67 @@
+[
+    { "port": 21, "use": "FTP", "des": "File Transfer Protocol" },
+    { "port": 69, "use": "TFTP", "des": "Trivial File Transfer Protocol" },
+    { "port": 22, "use": "SSH", "des": "Secure Shell" },
+    { "port": 23, "use": "Telnet", "des": "Telnet" },
+    { "port": 50, "use": "IPSec", "des": "Internet Protocol Security" },
+    { "port": 51, "use": "IPSec", "des": "Internet Protocol Security" },
+    { "port": 53, "use": "DNS", "des": "Domain Name System / Server" },
+    { "port": 389, "use": "LDAP", "des": "Lightweight Directory Access Protocol" },
+    { "port": 67, "use": "DHCP", "des": "Dynamic Host Configuration Protocol" },
+    { "port": 68, "use": "DHCP", "des": "Dynamic Host Configuration Protocol" },
+    { "port": 119, "use": "NNTP", "des": "Network News Transport Protocol" },
+    { "port": 123, "use": "NTP", "des": "Network Time Protocol" },
+    { "port": 161, "use": "SNMP", "des": "Simple Network Management Protocol" },
+    { "port": 162, "use": "SNMP", "des": "Simple Network Management Protocol" },
+
+    { "port": 135, "use": "NetBios", "des": "Network Basic Input Output System" },
+    { "port": 136, "use": "NetBios", "des": "Network Basic Input Output System" },
+    { "port": 137, "use": "NetBios", "des": "Network Basic Input Output System" },
+    { "port": 138, "use": "NetBios", "des": "Network Basic Input Output System" },
+    { "port": 139, "use": "NetBios", "des": "Network Basic Input Output System" },
+
+    { "port": 25, "use": "SMTP", "des": "Send Mail Transfer Protocol" },
+    { "port": 26, "use": "SMTP", "des": "Send Mail Transfer Protocol" },
+    { "port": 587, "use": "SMTP - SSL", "des": "Send Mail Transfer Protocol - Secure Socket Layer" },
+    { "port": 110, "use": "POP3", "des": "Post Office Protocol" },
+    { "port": 110, "use": "POP3 SSL", "des": "Post Office Protocol - Secure Socket Layer" },
+    { "port": 143, "use": "IMAP4", "des": "Internet Message Access Protocol" },
+
+    { "port": 80, "use": "HTTP", "des": "Hypertext Transfer Protocol" },
+    { "port": 443, "use": "HTTPS", "des": "Hypertext Transfer Protocol Secure" },
+    { "port": 8080, "use": "HTTP DEV", "des": "(Development) Hypertext Transfer Protocol" },
+    { "port": 8443, "use": "HTTPs DEV", "des": "(Development) Hypertext Tranfer Protocol Secure" },
+    { "port": 2082, "use": "cPanel", "des": "cPanel Host Platform" },
+    { "port": 2087, "use": "cPanel SSL", "des": "cPanel Host Platform - Secure Socket Layer" },
+    { "port": 2086, "use": "WHM", "des": "Web Host Manager (cPanel)" },
+    { "port": 2087, "use": "WHM SSL", "des": "Web Host Manager - Secure Socket Layer (cPanel)" },
+    { "port": 2095, "use": "Webmail", "des": "Web Mail" },
+    { "port": 2096, "use": "Webmail SSL", "des": "Web Mail - Secure Socket Layer" },
+    { "port": 2077, "use": "WebDAV/WebDisk", "des": "Web-based Distributed Authoring and Versioning" },
+    { "port": 2078, "use": "WebDAV/WebDisk SSL", "des": "Web-based Distributed Authoring and Versioning - Secure Socket Layer" },
+
+    { "port": 3306, "use": "MySQL/MariaDB", "des": "MySQL Database" },
+    { "port": 5432, "use": "PostgreSQL", "des": "PostgreSQL" },
+
+    { "port": 27017, "use": "MongoDB", "des": "MongoDB Default" },
+    { "port": 27018, "use": "MongoDB- Cluster", "des": "MongoDB Cluster/Shard" },
+    { "port": 1433, "use": "MSSQL", "des": "Microsoft SQL Server" },
+    { "port": 29015, "use": "RethinkDB", "des": "Rethink Default" },
+    { "port": 28015, "use": "RethinkDB Client", "des": "Rethink Client" },
+
+    { "port": 3000, "use": "NodeJS/Express", "des": "NodeJS Typical Development" },
+
+    { "port": 2080, "use": "ADSKFLEX", "des": "Autodesk Flex License Manager Daemon" },
+    { "port": 27000, "use": "LMGRD", "des": "Autodesk License Manager Daemon" },
+    { "port": 27001, "use": "LMGRD", "des": "Autodesk License Manager Daemon" },
+    { "port": 27002, "use": "LMGRD", "des": "Autodesk License Manager Daemon" },
+    { "port": 27003, "use": "LMGRD", "des": "Autodesk License Manager Daemon" },
+    { "port": 27004, "use": "LMGRD", "des": "Autodesk License Manager Daemon" },
+    { "port": 27005, "use": "LMGRD", "des": "Autodesk License Manager Daemon" },
+    { "port": 27006, "use": "LMGRD", "des": "Autodesk License Manager Daemon" },
+    { "port": 27007, "use": "LMGRD", "des": "Autodesk License Manager Daemon" },
+    { "port": 27008, "use": "LMGRD", "des": "Autodesk License Manager Daemon" },
+    { "port": 27009, "use": "LMGRD", "des": "Autodesk License Manager Daemon" }
+
+
+]
