@@ -12,9 +12,9 @@ Tested on:
     8GB  
 
 There are 3 options:  
-1. Only Locate RPis and Quit: _Returns a table of all detected RPis on the network. Detects > RPi3, and RPi4._  
-2. Locate RPis and port scan: _Returns devices from (1.) above and scans for common and currenly used ports_   
-3. Scan all network devices: _Scans all devices on the current network and returns used ports_  
+1. __Only Locate RPis and Quit:__ _Returns a table of all detected RPis on the network. Detects > RPi3, and RPi4._  
+2. __Locate RPis and port scan:__ _Returns devices from (1.) above and scans for common and currenly used ports_   
+3. __Scan all network devices:__ _Scans all devices on the current network and returns used ports_  
 
 ## Port List  
 The port listing is located in "ports.json" and contains common ports... mostly I'm looking for HTTP(s), Node, DB, and SSH- but the list can be extended if needed.  
